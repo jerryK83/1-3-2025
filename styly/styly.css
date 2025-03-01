@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0B192C;
+}
+
+main {
+    padding-top: 500px;
+}
+
+nav ul {
+    position: fixed;
+    z-index: 100;
+    left: 25%;
+    line-height: 50px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+/*    border: 1px solid green;*/
+    font-size: 25px;
+    padding: 0 50px;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-shadow: 1px 1px 0px #000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+
+.nav-back {
+    position: fixed;
+    z-index: 80;
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 101, 0, 0.99);
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+        
+}
+
+
+.celek {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+/*    border: 1px solid green;*/
+}
+
+
+.celek h1 {
+    color: #DF9755;
+    text-shadow: 1px 1px 0px #fff;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+
+.box {
+    max-width: 600px;
+    text-align: center;
+    background: #F2EFE7;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid goldenrod;
+    
+}
+
+.box h1 {
+    font-weight: 500;
+    color: goldenrod;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.76);
+    margin-bottom: 30px;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+
+.box input[type="text"], .box input[type="email"] {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    outline: none;
+    margin-top: 2px;
+    border-radius: 5px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid goldenrod;
+    
+}
+
+.box input[type="submit"] {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.box input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+
+.box textarea {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    outline: none;
+    margin-top: 2px;
+    border-radius: 5px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid goldenrod;
+    
+}
+
+input::placeholder {
+    color: aliceblue;
+    font-weight: 800;
+}
+
+
+textarea::placeholder {
+    color: aliceblue;
+    
+}
+
+.box input[type="text"]:focus, .box input[type="email"]:focus {
+    width: 310px;
+    transition: 0.5s;
+}
+
+
+
+.mobile-icon {
+    position: fixed;
+    z-index: 200;
+    right: 2%;
+    display: none;
+}
+
+
+
+
+
+/*
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+*/
+
+
+/*-------------------reusable-------------------*/
+
+
+
+
+/*
+.row {
+    max-width: 900px;
+    margin: 0px auto;
+}
+*/
+
+
+
+/*
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+*/

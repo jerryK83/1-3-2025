@@ -1,0 +1,38 @@
+@media only screen and (max-width: 860px) {
+    
+    .celek h1 {
+        font-size: 25px;
+        
+}
+    
+    
+    
+    nav ul {
+        display: none;
+        margin-top: 20px;
+    }
+    
+    nav ul li {
+        display: block;
+    }
+    
+    .nav-back {
+/*        display: none;*/
+    }
+    
+    
+    .mabile-nav {
+        position: fixed;
+        z-index: 80;
+        width: 100%;
+        height: 200px;
+        background: rgba(255, 101, 0, 0.99);
+        border-bottom: 2px solid #fff;
+        border-top: 2px solid #fff;
+        display: none;
+        }
+    
+    .mobile-icon {
+        display: inline-block;
+    }
+}
